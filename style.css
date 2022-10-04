@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  
+  background: #faf3e6;
+  
+}
+
+
+.page-wrapper:before {
+  content: "";
+  height: 20px;
+  background: url('img-lg-horiz-border.png') repeat-x 0 -2px;
+  background-size: 40em;
+  display: block;
+  margin-bottom: 50px;
+}
+.preamble h3 {
+  margin:  2px auto 2px;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0.5em 0 0.55em;
+  font-family: "grecian-light-face",sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1;
+  background: 
+    url('img-lg-horiz-border.png') repeat-x top right,
+    url('img-lg-horiz-border.png') repeat-x bottom left;
+  background-size: 13em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 10rem;
+}
+.intro h1:before {
+  content: "Dr. Shea's Miraculous";
+  font-family: "refrigerator-deluxe";
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.12rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  background: url('img-sprite.png') no-repeat center;
+  background-size: 25rem;
+  margin-bottom: 1.3em;
+}
+.participation h3 {
+  font-family: "refrigerator-deluxe",sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.025em;
+  padding-bottom: 1rem;
+  background: url('img-sprite.png') no-repeat center center;
+  background-size: 9em;
+}
+.intro h2 {
+  font-family: "french-clarendon-ornamented",sans-serif;
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 400;
+  padding-top: 4.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+  letter-spacing: 0.05rem;
+  line-height: 1.275em;
+  background: url('img-bottle.png') no-repeat center;
+  background-size: 1.45em;
+}
+.summary{
+  text-align: center;
+  display: flex,justify;
+  display:block;
+  margin-left: 0px;
+  
+}
+.preamble{
+  text-align: center;
+  margin-right: 8rem;
+  margin-left: 8rem;
+  display: flex,justify;
+  display:block;
+}
+.preamble p:first-line {
+  text-transform: uppercase;
+}
+.design-selection h3{
+  margin:  2px auto 2px;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0.5em 0 0.55em;
+  font-family: "grecian-light-face",sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1;
+  background: 
+    url('img-lg-horiz-border.png') repeat-x ,
+    url('img-lg-horiz-border.png') repeat-x bottom left;
+  background-size: 13em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.design-selection{
+  text-align: center;
+}
